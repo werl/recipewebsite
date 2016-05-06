@@ -1,0 +1,77 @@
+body {
+	background-color: #008E00;
+}
+h1 {
+	font-size: 2em;
+}
+.container {
+	width: 900px;
+	margin: auto auto;
+	background-color: #cb8a48;
+	border-radius: 30px;
+	padding: 20px;
+}
+.header {
+	text-align: center;
+}
+img {
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #555555;
+}
+.image {
+	border-radius: 10px;
+	float: right;
+	transition-duration: 1s
+}
+.image:hover {
+	border-radius: 10px;
+	transform: skewX(5deg);
+}
+.hiddenImage {
+	width: 0px;
+	height: 0px;
+}
+.toggleImage {
+	text-align: center;
+	background-color: white;
+	border-radius: 5px;
+}
+.cake {
+	float: left;
+}
+.frosting {
+	float: left;
+}
+.directions {
+	clear: both;
+}
+.h3 {
+	border: 3px solid black;
+	background-color: #00d9fc;
+}
+.dirDiv {
+	border: 2px solid black;
+	background-color: #FF4400;
+}
+.highlightHover {
+	background-color: white;
+}
+.floatLeft{
+        float: left;
+        width: 650px;
+}
+.floatLeft2 {
+        width: 700px;
+        float: left;
+}
+.floatRight {
+        float: right;
+}
+.accordianImage {
+	width: 100px;
+        margin-right: 10px;
+}
+.accordianImage2 {
+        height: 100px;
+        margin-right: 10px;
+}
